@@ -1,5 +1,5 @@
 .hamburger_layout {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-between;
   gap: 3px;
@@ -8,6 +8,9 @@
   width: 20px;
 
   cursor: pointer;
+  @media (max-width: 768px) {
+    display: flex;
+  }
 }
 .hamburger_hover_animate {
   .barTop {
@@ -30,17 +33,17 @@
 }
 
 .barTop {
-  background: #159957;
-  background: -webkit-linear-gradient(to left, #155799, #159957);
-  background: linear-gradient(to left, #155799, #159957);
+  background: #fd746c;
+  background: -webkit-linear-gradient(to left, #ff9068, #fd746c);
+  background: linear-gradient(to left, #ff9068, #fd746c);
 }
 .barMiddle {
-  background: #06beb6;
-  background: -webkit-linear-gradient(to left, #48b1bf, #06beb6);
-  background: linear-gradient(to left, #48b1bf, #06beb6);
+  background: #fd746c;
+  background: -webkit-linear-gradient(to left, #ff9068, #fd746c);
+  background: linear-gradient(to left, #ff9068, #fd746c);
 }
 .barBottom {
-  background: #0f2027;
-  background: -webkit-linear-gradient(to left, #2c5364, #203a43, #0f2027);
-  background: linear-gradient(to left, #2c5364, #203a43, #0f2027);
+  background: #fd746c;
+  background: -webkit-linear-gradient(to left, #ff9068, #fd746c);
+  background: linear-gradient(to left, #ff9068, #fd746c);
 }

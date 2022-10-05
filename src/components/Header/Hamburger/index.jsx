@@ -11,7 +11,9 @@ function Hamburger() {
   return (
     <div
       onClick={hamburgerCliked}
-      className={`${styles.hamburger_layout} ${isOpened && styles.hamburger_hover_animate}`}
+      className={`${styles.hamburger_layout} ${
+        isOpened && styles.hamburger_hover_animate
+      }`}
     >
       <span className={`${styles.bar_layout} ${styles.barTop}`}></span>
       <span className={`${styles.bar_layout} ${styles.barMiddle}`}></span>
@@ -19,5 +21,4 @@ function Hamburger() {
     </div>
   );
 }
-
 export default Hamburger;

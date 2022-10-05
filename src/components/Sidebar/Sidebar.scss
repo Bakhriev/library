@@ -1,0 +1,19 @@
+$sidebar-bg-color: #113347;
+$submenu-bg-color: #426b83;
+$sidebar-color: white;
+$breakpoint-xs: 480px !default;
+
+.btn-toggle {
+  display: none;
+  @media (max-width: 768px) {
+    display: block;
+    position: absolute;
+    top: -50px;
+    left: 11px;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@import "../../../node_modules/react-pro-sidebar/dist/scss/styles.scss";

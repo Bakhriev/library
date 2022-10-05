@@ -5,20 +5,19 @@
   justify-content: space-between;
   padding: 10px 20px;
 
-  background: #ff9966;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background: #606c88;
+  background: -webkit-linear-gradient(to left, #3f4c6b, #606c88);
+  background: linear-gradient(to left, #3f4c6b, #606c88);
 }
-//hamburger
-.hamburger-menu {
-  margin: 2rem;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
-  height: 2.5rem;
-  width: 2.5rem;
+
+.logo {
   cursor: pointer;
+  &:hover {
+    svg {
+      transition: transform 2s ease;
+      transform: rotate(360deg);
+    }
+  }
 }
 
 //menu
@@ -26,7 +25,6 @@
   display: flex;
   gap: 20px;
 }
-//menu
 
 .menuLink {
   svg {
@@ -34,5 +32,11 @@
     &:hover {
       transform: scale(1.1);
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    display: none;
   }
 }
