@@ -27,7 +27,7 @@ function Sidebar() {
         <Menu iconShape="square">
           <SubMenu title="Технология нетканных материалов">
             <Link to="/lab-1">
-              <MenuItem>
+              <MenuItem onClick={() => handleToggleSidebar(false)}>
                 1. Ассортимент и структура нетканных материалов
               </MenuItem>
             </Link>
