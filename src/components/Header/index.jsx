@@ -90,7 +90,7 @@ function Header() {
       <nav className={(styles.nav, styles.header_nav_position)}>
         <ul className={styles.menu}>
           <li>
-            <a href="www.google.com" className={styles.menuLink}>
+            <a href="https://t.me/nfithr" className={styles.menuLink}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 64 56"
@@ -149,7 +149,10 @@ function Header() {
             </a>
           </li>
           <li>
-            <a href="www.google.com" className={styles.menuLink}>
+            <a
+              href="https://www.instagram.com/bakhriev.5112?r=nametag"
+              className={styles.menuLink}
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 128 128"
