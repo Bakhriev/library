@@ -26,11 +26,29 @@ function Sidebar() {
       >
         <Menu iconShape="square">
           <SubMenu title="Технология нетканных материалов">
-            <Link to="/lab-1">
+            <SubMenu title={"Практика"}>
               <MenuItem onClick={() => handleToggleSidebar(false)}>
-                1. Ассортимент и структура нетканных материалов
+                <Link to="/lab-1">
+                  1. Ассортимент и структура нетканных материалов
+                </Link>
               </MenuItem>
-            </Link>
+              <MenuItem onClick={() => handleToggleSidebar(false)}>
+                <Link to="/lab-2">2. Скоро</Link>
+              </MenuItem>
+            </SubMenu>
+          </SubMenu>
+          <SubMenu title="Технология и оборудование текстильных изделий">
+            <SubMenu title={"Лекция"}>
+              <MenuItem onClick={() => handleToggleSidebar(false)}>
+                <Link to={"/let-1"}>1. Скоро</Link>
+              </MenuItem>
+            </SubMenu>
+
+            <SubMenu title={"Лабороторная"}>
+              <MenuItem onClick={() => handleToggleSidebar(false)}>
+                <Link to="/lab-3">1. Скоро</Link>
+              </MenuItem>
+            </SubMenu>
           </SubMenu>
         </Menu>
       </ProSidebar>
