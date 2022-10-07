@@ -4,13 +4,13 @@ import { useState } from "react";
 function Hamburger() {
   const [isOpened, setIsOpened] = useState(false);
 
-  function hamburgerCliked() {
+  function hamburgerClicked() {
     setIsOpened(!isOpened);
   }
 
   return (
     <div
-      onClick={hamburgerCliked}
+      onClick={hamburgerClicked}
       className={`${styles.hamburger_layout} ${
         isOpened && styles.hamburger_hover_animate
       }`}
