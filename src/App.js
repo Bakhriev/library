@@ -1,14 +1,24 @@
-import Header from "./components/Header";
-import Main from "./components/Main";
+import Header from './components/Header'
+import Main from './components/Main'
+import { useState, createContext } from 'react'
 
+export const AppContext = createContext({})
 
 function App() {
-  return (
-    <div className="wrapper">
-      <Header />
-      <Main />
-    </div>
-  );
+	const [open, setOpen] = useState(false)
+
+	const handleClickOpen = () => {
+		setOpen(!open)
+	}
+
+	return (
+		<div className='wrapper'>
+			<AppContext.Provider value={{ handleClickOpen, open }}>
+				<Header />
+				<Main />
+			</AppContext.Provider>
+		</div>
+	)
 }
 
-export default App;
+export default App

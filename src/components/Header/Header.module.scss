@@ -1,47 +1,47 @@
 //header
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 20px;
 
-  background: #606c88;
-  background: -webkit-linear-gradient(to left, #3f4c6b, #606c88);
-  background: linear-gradient(to left, #3f4c6b, #606c88);
+	background: #606c88;
+	background: -webkit-linear-gradient(to left, #3f4c6b, #606c88);
+	background: linear-gradient(to left, #3f4c6b, #606c88);
 }
 
 .logo {
-  cursor: pointer;
-  height: 44px;
-  width: 44px;
-  &:hover {
-    svg {
-      transition: transform 2s ease;
-      transform: rotate(360deg);
-    }
-  }
+	cursor: pointer;
+	height: 44px;
+	width: 44px;
+	&:hover {
+		svg {
+			transition: transform 2s ease;
+			transform: rotate(360deg);
+		}
+	}
 }
 
 //menu
 .menu {
-  display: flex;
-  gap: 20px;
+	display: flex;
+	gap: 20px;
 }
 
 .menuLink {
-  svg {
-    transition: 0.3s ease all;
-    &:hover {
-      transform: scale(1.1);
-    }
-  }
+	svg {
+		transition: 0.3s ease all;
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
 }
 
 @media (max-width: 768px) {
-  .logo {
-    position: absolute;
-    left: 60px;
-    height: 35px;
-    width: 35px;
-  }
+	.logo {
+		position: absolute;
+		left: 60px;
+		height: 35px;
+		width: 35px;
+	}
 }
