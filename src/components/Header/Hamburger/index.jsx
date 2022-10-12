@@ -1,6 +1,6 @@
-import styles from './Hamburger.module.scss'
-import { useContext } from 'react'
-import { AppContext } from '../../../App'
+import styles from "./Hamburger.module.scss"
+import { useContext } from "react"
+import { AppContext } from "../../../App"
 
 function Hamburger() {
 	const { open } = useContext(AppContext)

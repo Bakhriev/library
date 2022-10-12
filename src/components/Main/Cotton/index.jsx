@@ -1,10 +1,10 @@
 function Cotton() {
 	return (
-		<div className='contentWrapper'>
-			<div className='title'>
+		<div className="contentWrapper">
+			<div className="title">
 				<h1>Хлопок / Состав и строение</h1>
 			</div>
-			<div className='text'>
+			<div className="text">
 				<p>
 					<i>Хло́пок</i> — волокно растительного происхождения, покрывающее
 					семена хлопчатника; важнейшее и наиболее дешёвое из распространённых
@@ -18,7 +18,7 @@ function Cotton() {
 					состоит из целлюлозы, остальные 5 % — жировые и минеральные примеси.
 					<i>
 						<br />
-						Свойства{' '}
+						Свойства{" "}
 					</i>
 					<br />- Обладает высокой гигроскопичностью (способностью впитывать
 					влагу). <br />- Волокно при набухании увеличивается примерно на 40 %
@@ -49,18 +49,18 @@ function Cotton() {
 					гниёт). <br />- При горении хлопок источает запах жжёной бумаги[4].
 					Рекомендуемая температура влажно-тепловой обработки — 130 °C.
 				</p>
-				<div className='itemWrapper'>
-					<div className='item'>
-						<img src='./images/cottonImages/cotton1.jpg' alt='cotton' />
+				<div className="itemWrapper">
+					<div className="item">
+						<img src="./images/cottonImages/cotton1.avif" alt="cotton" />
 					</div>
-					<div className='item'>
-						<img src='./images/cottonImages/cotton2.jpg' alt='cotton' />
+					<div className="item">
+						<img src="./images/cottonImages/cotton2.avif" alt="cotton" />
 					</div>
-					<div className='item'>
-						<img src='./images/cottonImages/cotton3.jpg' alt='cotton' />
+					<div className="item">
+						<img src="./images/cottonImages/cotton3.avif" alt="cotton" />
 					</div>
-					<div className='item'>
-						<img src='./images/cottonImages/cotton4.jpg' alt='cotton' />
+					<div className="item">
+						<img src="./images/cottonImages/cotton4.avif" alt="cotton" />
 					</div>
 				</div>
 			</div>
