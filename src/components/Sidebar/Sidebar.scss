@@ -1,19 +1,21 @@
-$sidebar-bg-color: #113347;
-$submenu-bg-color: #426b83;
+$sidebar-bg-color: #1e3543;
+$submenu-bg-color: #486475;
 $sidebar-color: white;
+$submenu-indent: 10px !default;
 $breakpoint-xs: 480px !default;
+$sidebar-width: 270px !default;
 
 .btn-toggle {
-  display: none;
-  @media (max-width: 768px) {
-    display: block;
-    position: absolute;
-    top: -50px;
-    left: 11px;
-    color: rgb(255, 255, 255);
-    height: 40px;
-    width: 40px;
-  }
+	display: none;
+	@media (max-width: 768px) {
+		display: block;
+		position: absolute;
+		top: -50px;
+		left: 11px;
+		height: 40px;
+		width: 40px;
+		opacity: 0;
+	}
 }
 
 @import "../../../node_modules/react-pro-sidebar/dist/scss/styles.scss";

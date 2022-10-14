@@ -85,7 +85,6 @@ function Lab1() {
 						/>
 					</div>
 				</div>
-				<p></p>
 			</div>
 		</div>
 	)

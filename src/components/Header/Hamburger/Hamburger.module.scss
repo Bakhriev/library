@@ -1,49 +1,44 @@
 .hamburger_layout {
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 3px;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 3px;
 
-  height: 20px;
-  width: 20px;
+	height: 20px;
+	width: 20px;
 
-  cursor: pointer;
-  @media (max-width: 768px) {
-    display: flex;
-  }
+	cursor: pointer;
+	@media (max-width: 768px) {
+		display: flex;
+	}
 }
 .hamburger_hover_animate {
-  .barTop {
-    transform: rotate(55deg);
-  }
-  .barMiddle {
-    transform: translateX(16px);
-    opacity: 0;
-  }
-  .barBottom {
-    transform: rotate(-55deg);
-  }
+	position: relative;
+	.barTop {
+		transform: rotate(55deg);
+	}
+	.barMiddle {
+		transform: translateX(16px);
+		opacity: 0;
+	}
+	.barBottom {
+		transform: rotate(-55deg);
+	}
 }
 
 .bar_layout {
-  height: 3px;
-  border-radius: 5px;
-  transform-origin: left;
-  transition: all 0.5s;
+	height: 3px;
+	border-radius: 5px;
+	transform-origin: left;
+	transition: all 0.5s;
 }
 
 .barTop {
-  background: #fd746c;
-  background: -webkit-linear-gradient(to left, #ff9068, #fd746c);
-  background: linear-gradient(to left, #ff9068, #fd746c);
+	background-color: rgb(1, 184, 250);
 }
 .barMiddle {
-  background: #fd746c;
-  background: -webkit-linear-gradient(to left, #ff9068, #fd746c);
-  background: linear-gradient(to left, #ff9068, #fd746c);
+	background-color: rgb(1, 184, 250);
 }
 .barBottom {
-  background: #fd746c;
-  background: -webkit-linear-gradient(to left, #ff9068, #fd746c);
-  background: linear-gradient(to left, #ff9068, #fd746c);
+	background-color: rgb(1, 184, 250);
 }

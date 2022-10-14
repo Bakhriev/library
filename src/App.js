@@ -1,6 +1,6 @@
-import Header from './components/Header'
-import Main from './components/Main'
-import { useState, createContext } from 'react'
+import Header from "./components/Header"
+import Main from "./components/Main"
+import { useState, createContext } from "react"
 
 export const AppContext = createContext({})
 
@@ -12,7 +12,7 @@ function App() {
 	}
 
 	return (
-		<div className='wrapper'>
+		<div className="wrapper">
 			<AppContext.Provider value={{ handleClickOpen, open }}>
 				<Header />
 				<Main />
